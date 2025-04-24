@@ -215,15 +215,16 @@ npm install --save-dev @babel/plugin-transform-runtime @babel/plugin-transform-c
 
 ## ESlint
 
-https://medium.com/ekino-france/migrate-to-eslint-9-x-29727f790249
+- 참고 링크
+    - https://medium.com/ekino-france/migrate-to-eslint-9-x-29727f790249
 
-https://velog.io/@iberis/%EC%82%AC%EB%82%B4-ESLint-Prettier-%EA%B3%B5%EC%9C%A0-%EC%84%A4%EC%A0%95-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0feat.-pnpm-eslint-9
+    - https://velog.io/@iberis/%EC%82%AC%EB%82%B4-ESLint-Prettier-%EA%B3%B5%EC%9C%A0-%EC%84%A4%EC%A0%95-%ED%8C%A8%ED%82%A4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B0feat.-pnpm-eslint-9
 
-https://developer.skao.int/projects/ska-ems-portal-webapp/en/latest/eslintSetup.html
+    - https://developer.skao.int/projects/ska-ems-portal-webapp/en/latest/eslintSetup.html
 
-https://github.com/bloomberg/stricli/blob/main/eslint.config.mjs
+    - https://github.com/bloomberg/stricli/blob/main/eslint.config.mjs
 
-https://github.com/issue-ops/parser/blob/main/eslint.config.mjs
+    - https://github.com/issue-ops/parser/blob/main/eslint.config.mjs
 
 - ESLint 설치
 
@@ -1021,4 +1022,5 @@ https://github.com/issue-ops/parser/blob/main/eslint.config.mjs
 
 ## 참고
 
-[Webpack프로젝트](https://velog.io/@tkdals0978/Webpack5-loader)
+ - [프론트엔드-개발환경](https://velog.io/@jakeseo_me/series/프론트엔드-개발환경)
+ - [Webpack프로젝트](https://velog.io/@tkdals0978/Webpack5-loader)

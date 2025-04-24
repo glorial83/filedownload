@@ -1,0 +1,68 @@
+{
+    "name": "filedownload",
+    "version": "1.0.0",
+    "description": "",
+    "engines": {
+        "node": "18.20.0"
+    },
+    "volta": {
+        "node": "18.20.0"
+    },
+    "main": "index.js",
+    "scripts": {
+        "build": "cross-env webpack",
+        "start": "cross-env webpack serve",
+        "build-prod": "cross-env NODE_ENV=production webpack",
+        "start-prod": "cross-env NODE_ENV=production webpack serve"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/glorial83/filedownload.git"
+    },
+    "keywords": [],
+    "author": "glorial",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/glorial83/filedownload/issues"
+    },
+    "browserslist": [
+        "Chrome >= 69",
+        "Firefox >= 78",
+        "Safari >= 14.0",
+        "Opera >= 56",
+        "Edge > 78"
+    ],
+    "homepage": "https://github.com/glorial83/filedownload#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.27.0",
+        "@babel/core": "^7.26.10",
+        "@babel/plugin-proposal-decorators": "^7.25.9",
+        "@babel/plugin-transform-class-properties": "^7.25.9",
+        "@babel/plugin-transform-runtime": "^7.26.10",
+        "@babel/preset-env": "^7.26.9",
+        "@eslint/compat": "^1.2.8",
+        "@eslint/eslintrc": "^3.3.1",
+        "@eslint/js": "^9.25.1",
+        "babel-loader": "^10.0.0",
+        "babel-plugin-minify-constant-folding": "^0.5.0",
+        "babel-plugin-minify-dead-code-elimination": "^0.5.2",
+        "babel-plugin-minify-guarded-expressions": "^0.4.4",
+        "clean-webpack-plugin": "^4.0.0",
+        "cross-env": "^7.0.3",
+        "eslint": "^9.25.1",
+        "eslint-plugin-compat": "^6.0.2",
+        "eslint-plugin-es": "^4.1.0",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-jsdoc": "^50.6.9",
+        "eslint-plugin-local-rules": "^3.0.2",
+        "eslint-plugin-no-unsanitized": "^4.1.2",
+        "eslint-plugin-optimize-regex": "^1.2.1",
+        "eslint-plugin-sonarjs": "^3.0.2",
+        "eslint-plugin-unicorn": "^58.0.0",
+        "globals": "^16.0.0",
+        "html-webpack-plugin": "^5.6.3",
+        "webpack": "^5.99.6",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.1"
+    }
+}
